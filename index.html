@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <div class="input" id="input"></div> -->
+      <div id="input-number"></div>
+
+      <div class="menu">
+        <button class="btn sign" id="plus-sign">+</button>
+        <button class="btn sign" id="subtract-sign">-</button>
+        <button class="btn sign" id="multiply-sign">x</button>
+        <button class="btn sign" id="divide-sign">÷</button>
+      </div>
+
+      <div class="numbers-container">
+        <button class="btn numbers" id="btn-number1" value="1">1</button>
+        <button class="btn numbers" id="btn-number2" value="2">2</button>
+        <button class="btn numbers" id="btn-number3">3</button>
+        <button class="btn numbers" id="btn-number4">4</button>
+        <button class="btn numbers" id="btn-number5">5</button>
+        <button class="btn numbers" id="btn-number6">6</button>
+        <button class="btn numbers" id="btn-number7">7</button>
+        <button class="btn numbers" id="btn-number8">8</button>
+        <button class="btn numbers" id="btn-number9">9</button>
+        <button class="btn numbers" id="btn-number0">0</button>
+
+        <button class="btn numbers" id="btn-decimal" value=".">.</button>
+        <button class="btn" id="btn-clear">C</button>
+      </div>
+      <button class="btn" id="equal" onclick="calculate()">=</button>
+    </div>
+  </body>
+</html>
